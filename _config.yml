@@ -1,7 +1,10 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Jack Yi Yang
+title: blank
+first_name: Jack
+middle_name: Yi 
+last_name: Yang
 email: jmuyiyang@gmail.com
 description: > # this means to ignore newlines until "url:"
 url:  jyiyang.github.io
@@ -76,7 +79,7 @@ scholar:
 
   last_name: Yang
 
-  style: apa
+  style: ieee
   locale: en
 
   sort_by: year
