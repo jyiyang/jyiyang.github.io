@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-name: Jack Yang
+name: Jack Yi Yang
 email: jmuyiyang@gmail.com
 description: > # this means to ignore newlines until "url:"
 url:  jyiyang.github.io
@@ -30,7 +30,7 @@ text:
     older: 'Older'
 
 # Comments
-disqus_shortname: Jack Yang # put your disqus shortname
+disqus_shortname: Jack Yi Yang # put your disqus shortname
 
 # Optional features
 show_social_icons:  false
@@ -76,7 +76,7 @@ scholar:
 
   last_name: Yang
 
-  style: ieee
+  style: apa
   locale: en
 
   sort_by: year

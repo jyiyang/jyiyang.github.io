@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: projects
 permalink: /projects/
@@ -7,7 +7,7 @@ permalink: /projects/
 ## Surfel-based RGB-D Reconstruction and SLAM
 <img src="/assets/img/concept.png" alt="concept" width="1000"/>
 
-More info to come...
+More info to come... -->
 
 <!-- {% for project in site.projects %} -->
 

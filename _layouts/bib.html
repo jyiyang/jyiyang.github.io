@@ -53,6 +53,8 @@
       <em>{{entry.journal}}</em>
     {% elsif entry.type == "inproceedings" %}
       <em>In {{entry.booktitle}}</em>
+    {% elsif entry.type == "masterthesis" %}
+      <em>Master Thesis, {{entry.school}}, {{entry.number}}, </em>
     {% endif %}
     {% if entry.year %}
       {{entry.year}}
