@@ -1,14 +1,14 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-title: blank
+title: Jack Yi Yang
 first_name: Jack
 middle_name: Yi 
 last_name: Yang
 email: jmuyiyang@gmail.com
 description: > # this means to ignore newlines until "url:"
-url: #
-baseurl: # the subpath of your site, e.g. /blog/
+url: https://jyiyang.github.io
+baseurl:  # should be empty
 last_updated: # leave blank if you don't want to display last updated
 
 # -----------------------------------------------------------------------------
