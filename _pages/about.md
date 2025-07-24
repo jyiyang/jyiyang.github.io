@@ -12,10 +12,8 @@ news: false
 social: true
 ---
 
-I am a SLAM engineer at [PHIAR](https://www.phiar.net/), a startup focusing on combining augmented reality, road understanding, and in-car navigation. Check out our latest collaboration [here](https://www.cnn.com/2021/01/12/tech/panasonic-augmented-reality-head-up-display/index.html). 
+I am a Tech Lead and Senior Software Engineer at [Nuro](https://www.nuro.ai/). I worked on scalable and reliable mapping and localization solution for L4 autonomous vehicle. Checkout our [latest work](https://arxiv.org/abs/2503.13896) in using widely available aerial data for ML-based localization for autonomous vehicle in ICRA 2025.
 
-I obtained my Master degree in the [Robotics Institute](https://www.ri.cmu.edu/), Carnegie Mellon University in 2019. I worked with [Prof. Michael Kaess](http://www.cs.cmu.edu/~kaess/) in the [Robot Perception Lab](http://rpl.ri.cmu.edu/). My research interest lies in the field of robotics, and I am particularly in 3D reconstruction, SLAM, and state estimation. 
+Previously I was a Software Engineer at Phiar, a startup focusing on combining augmented reality, road understanding, and in-car navigation. Phiar was acquired by Google in 2022.
 
-I graduated from [Harvey Mudd College](https://www.hmc.edu/) with a Bachelor degree in engineering in 2017. I worked at the [Lab for Autonomous and Intelligent Robotics](https://www.lair.hmc.edu/) with [Prof. Christopher Clark](https://www.lair.hmc.edu/chris-clark). I had a great time working on algorithms in multi-robot system and path planning.
-
-I worked at Apple as a summer intern in 2016, where I worked on pose estimation using portable inertial sensors in the CoreMotion team. 
+I graduated with a Master degree in Robotics at [Robotics Institute](https://www.ri.cmu.edu/), Carnegie Mellon University in 2019. I worked with [Prof. Michael Kaess](http://www.cs.cmu.edu/~kaess/) in the [Robot Perception Lab](http://rpl.ri.cmu.edu/). I graduated from [Harvey Mudd College](https://www.hmc.edu/) with a Bachelor degree in engineering in 2017. I worked at the [Lab for Autonomous and Intelligent Robotics](https://www.lair.hmc.edu/) with [Prof. Christopher Clark](https://www.lair.hmc.edu/chris-clark).
