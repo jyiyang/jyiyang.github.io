@@ -326,7 +326,20 @@ em img { max-width: 100%; margin-left: 0; }
 
 body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
 
-.wrapper { max-width: 50%; margin-right: auto; margin-left: auto; padding: 0 5%; }
+.wrapper { 
+  max-width: 50%; 
+  margin-right: auto; 
+  margin-left: auto; 
+  padding: 0 5%; 
+}
+
+/* Responsive wrapper for mobile */
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
 
 .site-header .wrapper {
   max-width: none;
@@ -541,8 +554,8 @@ article a:hover, .news a:hover { text-decoration: underline; }
   flex-shrink: 0; /* Prevents the column from shrinking on smaller screens */
   text-align: center;
   padding-top: 100px; /* Adjust to align with the main content's top margin */
-  position: absolute;
-  left: 50px; /* Align with the left edge of the webpage */
+  position: relative;
+  margin-left: 50px; /* Distance from left edge */
 }
 
 .right-column {
@@ -561,21 +574,41 @@ article a:hover, .news a:hover { text-decoration: underline; }
   margin-top: 20px;
 }
 
-/* Optional: Add a media query for mobile to stack columns */
+/* Mobile responsive design */
 @media (max-width: 768px) {
   .two-column-layout {
     flex-direction: column;
     align-items: center;
+    gap: 20px; /* Reduce gap for mobile */
+    padding: 0 20px; /* Add side padding */
   }
 
   .left-column {
     width: 100%;
-    padding-top: 0;
+    max-width: 300px; /* Limit max width on mobile */
+    padding-top: 20px; /* Reduce top padding */
+    margin-left: 0; /* Remove left margin */
+    position: relative;
+  }
+
+  .right-column {
+    width: 100%;
+    padding: 0 10px; /* Add padding for readability */
   }
 
   .site-header .wrapper {
     margin-left: auto;
     padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .profile-picture img {
+    width: 120px; /* Smaller profile picture on mobile */
+    height: 120px;
+  }
+
+  .page-content {
+    padding: 80px 0; /* Reduce vertical padding */
   }
 }
 
