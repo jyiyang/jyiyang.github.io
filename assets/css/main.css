@@ -326,7 +326,15 @@ em img { max-width: 100%; margin-left: 0; }
 
 body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
 
-.wrapper { max-width: -webkit-calc(800px - (50px * 2)); max-width: calc(800px - (50px * 2)); margin-right: auto; margin-left: auto; padding-right: 50px; padding-left: 50px; }
+.wrapper { max-width: 50%; margin-right: auto; margin-left: auto; padding: 0 5%; }
+
+.site-header .wrapper {
+  max-width: none;
+  margin-left: calc(250px + 40px); /* Left column width + gap */
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 17%;
+}
 
 .clearfix:before, .wrapper:before, .clearfix:after, .wrapper:after { content: ' '; display: table; }
 
@@ -370,7 +378,7 @@ footer a:hover { color: #B509AC; }
 
 .page-heading { font-size: 20px; }
 
-.contacticon { display: block; font-size: 60px; margin: 10px; }
+.contacticon { display: block; font-size: 40px; margin: 10px; }
 
 .center { text-align: center; }
 
@@ -521,6 +529,53 @@ article a:hover, .news a:hover { text-decoration: underline; }
 .social-icons a.fa:hover { opacity: 1; }
 
 .social-icons iframe[title=Flattr] { position: relative; top: 0.1em; }
+
+.two-column-layout {
+  display: flex;
+  gap: 40px; /* Space between the left and right columns */
+  align-items: flex-start; /* Aligns items to the top of the container */
+}
+
+.left-column {
+  width: 250px; /* Adjust this width as needed for your design */
+  flex-shrink: 0; /* Prevents the column from shrinking on smaller screens */
+  text-align: center;
+  padding-top: 100px; /* Adjust to align with the main content's top margin */
+}
+
+.right-column {
+  flex-grow: 1; /* Allows this column to fill the remaining space */
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Optional: for a circular profile picture */
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+  margin-top: 20px;
+}
+
+/* Optional: Add a media query for mobile to stack columns */
+@media (max-width: 768px) {
+  .two-column-layout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-column {
+    width: 100%;
+    padding-top: 0;
+  }
+
+  .site-header .wrapper {
+    margin-left: auto;
+    padding-left: 5%;
+  }
+}
 
 /* Table styles copied from Bootstrap Copyright (c) 2013 Twitter, Inc
 */

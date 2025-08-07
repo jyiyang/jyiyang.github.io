@@ -1,0 +1,48 @@
+# Site settings
+title: Jack Yi Yang
+email: jmuyiyang@gmail.com
+description: Tech Lead and Senior Software Engineer at Nuro
+url: "https://jyiyang.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Include files
+include: ["_pages", "_includes"]
+
+# Exclude files
+exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-email-protect
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# GitHub metadata (disabled to avoid issues)
+github_metadata: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post" 

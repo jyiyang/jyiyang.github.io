@@ -1,0 +1,29 @@
+I"2<h3 id="publications">Publications</h3>
+
+<ul>
+  <li>
+    <p><strong>Evaluating Global Geo-alignment for Precision Learned Autonomous Vehicle Localization using Aerial Data</strong>
+<em>Yi Yang, Xuran Zhao, H. Charles Zhao, Shumin Yuan, Samuel M. Bateman, Tiffany A. Huang, Chris Beall, Will Maddern</em>
+<em>International Conference on Robotics and Automation, ICRA 2025</em>
+[<a href="https://arxiv.org/abs/2503.13896">PDF</a>]</p>
+  </li>
+  <li>
+    <p><strong>Surfel-Based Dense RGB-D Reconstruction with Global and Local Consistency</strong>
+<em>Yi Yang, Wei Dong, Michael Kaess</em>
+<em>International Conference on Robotics and Automation, ICRA 2019</em>
+[<a href="https://jyiyang.github.io/assets/pdf/Yang19icra.pdf">PDF</a>]</p>
+  </li>
+  <li>
+    <p><strong>GPU Accelerated Robust Scene Reconstruction</strong>
+<em>Wei Dong, Jaesik Park, Yi Yang, Michael Kaess</em>
+<em>International Conference on Intelligent Robots and Systems, IROS 2019</em>
+[<a href="https://jyiyang.github.io/assets/pdf/Dong19iros.pdf">PDF</a>]</p>
+  </li>
+  <li>
+    <p><strong>Surfel-based RGB-D Reconstruction and SLAM with Global and Local Consistency</strong>
+<em>Yi Yang</em>
+<em>Master Thesis, Carnegie Mellon University, CMU-RI-TR-19-45, 2019</em>
+[<a href="https://jyiyang.github.io/assets/pdf/Yi_Yang_thesis.pdf">PDF</a>]</p>
+  </li>
+</ul>
+:ET
