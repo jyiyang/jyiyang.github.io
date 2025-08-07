@@ -532,15 +532,17 @@ article a:hover, .news a:hover { text-decoration: underline; }
 
 .two-column-layout {
   display: flex;
-  gap: 40px; /* Space between the left and right columns */
+  gap: 50px; /* Space between the left and right columns */
   align-items: flex-start; /* Aligns items to the top of the container */
 }
 
 .left-column {
-  width: 250px; /* Adjust this width as needed for your design */
+  width: 250px; /* Much thinner left column */
   flex-shrink: 0; /* Prevents the column from shrinking on smaller screens */
   text-align: center;
   padding-top: 100px; /* Adjust to align with the main content's top margin */
+  position: absolute;
+  left: 50px; /* Align with the left edge of the webpage */
 }
 
 .right-column {
