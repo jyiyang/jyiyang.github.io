@@ -79,11 +79,13 @@ layout: null
               {% capture about_content %}{% include about.md %}{% endcapture %}
               {{ about_content | markdownify }}
 
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/h9CplYFPLzQ" 
-                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-                clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-              </iframe>
-              
+              <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/h9CplYFPLzQ"
+                  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+              </div>
+
               {% capture publications_content %}{% include publications.md %}{% endcapture %}
               {{ publications_content | markdownify }}
             </article>
