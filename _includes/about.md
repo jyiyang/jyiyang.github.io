@@ -1,6 +1,6 @@
 ### About
 
-I am the co-founder and CTO at [Sancho](https://www.sancho.com/), where we are building robots to help define the next generation of manufacturing.
+I am the co-founder and CTO at Sancho, where we are building robots to help define the next generation of manufacturing. Stay tuned for more!
 
 Previously, I was a Tech Lead at [Nuro](https://www.nuro.ai/), where I worked on mapping and localization for autonomous vehicles. I am interested in machine learning, state estimation, and writing good software for robotics. Check out our [latest work](https://arxiv.org/abs/2503.13896) on using widely available aerial data for ML-based localization of autonomous vehicles, presented at ICRA 2025.
 
